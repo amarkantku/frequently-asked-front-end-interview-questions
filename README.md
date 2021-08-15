@@ -48,7 +48,7 @@ This repo contains a collection of topics that are frequently asked in a Front-e
 
 13. What is HTML quirks mode?
 
-14. What is createDocumentFragment? How does it work?
+14. What is `createDocumentFragment`? How does it work?
 
 15. What is Fetch API, what are the limitations of Fetch API? 
 
