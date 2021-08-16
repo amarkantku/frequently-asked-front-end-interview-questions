@@ -287,6 +287,7 @@ for (; i < 5; i++) {
 
 ```javascript
 sum(10)(20)(30)(); //output: 60
+sum(10,20)(10)(20,50)(); //output: 100
 ```
 
 Ans: 
