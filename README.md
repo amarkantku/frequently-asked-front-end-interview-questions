@@ -289,6 +289,24 @@ for (; i < 5; i++) {
 sum(10)(20)(30)(); //output: 60
 ```
 
+Ans: 
+```javascript
+    const sum  = function (...a) {
+    const getSum = d => {
+        return d.reduce((i,j)=> i+j, 0);
+    };
+    a = getSum(a);
+    return function (...b) {
+        if (b.length) {
+            return sum(a + getSum(b)); 
+        }
+        return a;
+    }
+};
+    
+```
+    
+    
 21. Write a function to detect the circular dependency
 
 ```javascript
